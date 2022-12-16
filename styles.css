@@ -1,6 +1,6 @@
-* {
+*, body, html {
     background-color: green;
-    margin:10px;
+    margin:0px;
     padding:0;
 }
 
@@ -29,6 +29,25 @@
         border: 3px solid red;
         margin: 0 auto;
     }
+    .achtergrond-img{
+        width: 500px;
+  height: 300px;
+        margin: 0 auto;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("https://i.pinimg.com/236x/00/c2/27/00c22709d3f451d0247d60cd433a922e.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    }
+    
+  .title, .tekst{
+
+    background-color: transparent;
+    text-align: center;
+    color: antiquewhite;
+    font-size: larger;
+    padding: 30px 20px;
+  }
 @media screen and (max-width:678px)and (min-width: 480px)  {
 
 .een{
