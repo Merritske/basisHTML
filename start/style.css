@@ -5,7 +5,20 @@
 nav{
         margin: 30px;
     }
+.inspiration{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+margin: 50px auto;
+border: 3px solid aquamarine;
+justify-content: center;
 
+}
+.inspiration >img{
+    width: 250px;
+    margin: 20px;
+}
     
 /*for mobile*/
 @media screen and (max-width: 480px) {
@@ -15,6 +28,16 @@ nav{
    
 li{
         list-style-type: none;
+    }
+    .inspiration{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    margin: 50px auto;
+    border: 3px solid aquamarine;
+  align-items: center;
+    
     }
 }
 /*for tablet*/
